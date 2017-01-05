@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="TextViewDataModel"
+            type="com.hg.databinding.model.TextViewDataModel" />
+
+        <variable
+            name="ImageDataModel"
+            type="com.hg.databinding.model.ImageDataModel" />
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/layout_activity_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="30dp">
+
+        <Button
+            android:id="@+id/buttonSimpleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Binding with Simple View"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:elevation="5dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="Binding with RecyclerView"
+            android:textAllCaps="false"
+            android:elevation="5dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</layout>

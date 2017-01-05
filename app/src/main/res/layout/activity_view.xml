@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="TextViewDataModel"
+            type="com.hg.databinding.model.TextViewDataModel" />
+
+        <variable
+            name="ImageDataModel"
+            type="com.hg.databinding.model.ImageDataModel" />
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/layout_activity_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0F0F0"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView Data Binding"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            checkIfNullOrEmpty="@{TextViewDataModel.userName}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@{TextViewDataModel.userName}" />
+
+        <TextView
+            checkIfNullOrEmpty="@{TextViewDataModel.userEmail}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@{TextViewDataModel.userEmail}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="ImageView Data Binding" />
+
+        <ImageView
+
+            setImgResource="@{ImageDataModel.imageResource}"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp" />
+
+        <ImageView
+
+            android:id="@+id/imageView"
+            setBitmap="@{ImageDataModel.imageBitmap}"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+
+</layout>

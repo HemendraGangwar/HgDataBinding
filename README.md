@@ -8,32 +8,12 @@ You an refer to this this for more understanding
 <br/>
 
 <a href="https://developer.android.com/topic/libraries/data-binding/index.html#build_environmentm">Data Binding on Android Developement Blog</a>
-<b>Steps to be followed :</b>
 
-simple add below code in build.gradle
-
-<p>dataBinding {
-        enabled = true
-    }
-    </p>
-   <br/> 
- then in your xml file
-<br/> 
-<p>
-
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <data>
-
-        <variable
-            name="TextViewDataModel"
-            type="com.hg.databinding.model.TextViewDataModel" />
-
-        <variable
-            name="ImageDataModel"
-            type="com.hg.databinding.model.ImageDataModel" />
-
-    </data>
-    
-</p>
-       
+<br/>
+<b>Screenshots of example wroking</b>
+<br/>
+<img  height="400" src="https://cloud.githubusercontent.com/assets/11073070/21678920/1a02cc62-d367-11e6-82cf-d5e01290c895.png"></img>
+<br/>
+<img  height="400" src="https://cloud.githubusercontent.com/assets/11073070/21678924/1d3e8858-d367-11e6-87a9-a972de063519.png"></img>
+<br/>
+<img  height="400" src="https://cloud.githubusercontent.com/assets/11073070/21678931/205b8d1a-d367-11e6-809b-cab7d008cf38.png"></img>

@@ -11,8 +11,8 @@ You an refer to this this for more understanding
 <b>Screenshots of example wroking</b>
 <br/>
 <br/>
-<img  height="400" src="https://cloud.githubusercontent.com/assets/11073070/21678920/1a02cc62-d367-11e6-82cf-d5e01290c895.png"></img>
+<img  height="300" src="https://cloud.githubusercontent.com/assets/11073070/21678920/1a02cc62-d367-11e6-82cf-d5e01290c895.png"></img>
 <br/>
-<img  height="400" src="https://cloud.githubusercontent.com/assets/11073070/21678924/1d3e8858-d367-11e6-87a9-a972de063519.png"></img>
+<img  height="300" src="https://cloud.githubusercontent.com/assets/11073070/21678924/1d3e8858-d367-11e6-87a9-a972de063519.png"></img>
 <br/>
-<img  height="400" src="https://cloud.githubusercontent.com/assets/11073070/21678931/205b8d1a-d367-11e6-809b-cab7d008cf38.png"></img>
+<img  height="300" src="https://cloud.githubusercontent.com/assets/11073070/21678931/205b8d1a-d367-11e6-809b-cab7d008cf38.png"></img>

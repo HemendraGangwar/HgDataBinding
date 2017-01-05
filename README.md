@@ -7,8 +7,9 @@ its a simple example to understand data binding.
 You an refer to this this for more understanding
 <a href="https://developer.android.com/topic/libraries/data-binding/index.html#build_environmentm">Data Binding on Android Developement Blog</a>
 
-<br/>
+
 <b>Screenshots of example wroking</b>
+<br/>
 <br/>
 <img  height="400" src="https://cloud.githubusercontent.com/assets/11073070/21678920/1a02cc62-d367-11e6-82cf-d5e01290c895.png"></img>
 <br/>

@@ -6,8 +6,8 @@ its a simple example to understand data binding.
 <br/>
 You an refer to this this for more understanding
 <br/>
-<a href="https://developer.android.com/topic/libraries/data-binding/index.html#build_environment"></a>
 
+<a href="https://developer.android.com/topic/libraries/data-binding/index.html#build_environmentm">Data Binding on Android Developement Blog</a>
 <b>Steps to be followed :</b>
 
 simple add below code in build.gradle
